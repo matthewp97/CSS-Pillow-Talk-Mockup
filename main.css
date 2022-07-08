@@ -41,7 +41,7 @@ h1 {
 /*********************************
  * Header
  *********************************/
- header {
+header {
     width: 90%;
     margin: auto;
     display: flex;
@@ -49,7 +49,7 @@ h1 {
     margin-bottom: 20px;
   }                  
 
-  header div {
+header div {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -115,4 +115,9 @@ div[class$='row']  {
  }
  .bottom-row img {
    width: 32%;
- }                                  
+ }              
+ 
+ /* Nav */
+ nav {
+     align-items: flex-end;
+ }
